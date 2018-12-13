@@ -214,7 +214,7 @@ public class SFTPUtil {
 
     //上传文件测试
     /*public static void main(String[] args) throws SftpException, IOException {
-        SFTPUtil sftp = new SFTPUtil(Global.getConfig("username"), Global.getConfig("password"), Global.getConfig("server"),                 Integer.parseInt(Global.getConfig("port")));
+        SFTPUtil sftp = new SFTPUtil(用户名, 密码, ftp地址,端口号));
         sftp.login();
         File file = new File("C:\\Users\\asus\\Desktop\\aaa.txt");
         InputStream is = new FileInputStream(file);
