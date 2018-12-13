@@ -1,4 +1,4 @@
-package jsch.sftp.utils;
+package java.jsch.sftp.utils;
 
 import com.jcraft.jsch.*;
 import org.slf4j.Logger;
